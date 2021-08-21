@@ -74,3 +74,16 @@ age /= 2 //30
 age %= 2 //0
 ```
 
+---
+
+## String Interpolation
+
+- string interpolation is very easy in swift:
+
+```swift 
+var price: Double = 299.99
+
+print("this xbox one series s costs \(price) dollars")
+
+//output: this xbox one series s costs 299.99 dollars
+```
