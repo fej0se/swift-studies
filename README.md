@@ -43,11 +43,11 @@ let pi: Double = 3.14
 #### examples:
 
 ```swift 
-var age: Int = 28
+var age: Int = 27
  
-var price: Double = 8.99
+var price: Double = 1.99
  
-var message: String = "good nite"
+var message: String = "this is good"
  
 var lateToWork: Bool = true
 ```
