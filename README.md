@@ -115,7 +115,6 @@ if fruit == "banana" {
 ```swift
 var fruit: String = "apple"
 
-
 fruit === "apple" ? print("🍎") : print("Ops, it not an apple")
 ```
 
@@ -159,7 +158,6 @@ switch num {
 
 ```swift
 var animals: String = "Dog"
-
 
 switch animal {
     case "Dog", "Cat", "Rabbit":
