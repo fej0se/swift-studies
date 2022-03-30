@@ -1,6 +1,6 @@
 # swift-studies
 
-## doing your first hello world
+## Doing your first hello world
 
 ```swift
 print("Hello World")
