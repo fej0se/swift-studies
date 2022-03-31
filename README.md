@@ -1,6 +1,6 @@
 # swift-studies
 
-## doing your first hello world
+## Doing your first hello world
 
 ```swift
 print("Hello World")
@@ -153,7 +153,6 @@ switch num {
 
 ```swift
 var animals: String = "Dog"
-
 
 switch animal {
     case "Dog", "Cat", "Rabbit":
