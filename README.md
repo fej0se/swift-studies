@@ -90,8 +90,6 @@ print("this xbox one series s costs \(price) dollars")
 //output: this xbox one series s costs 299.99 dollars
 ```
 
-
-
 ## Else If statement
 
 ```swift
@@ -101,14 +99,12 @@ if fruit == "banana" {
   print("🍌")
 } else if fruit == "grape" {
   print("🍇")
-} else if abbreviation == "apple" {
+} else if fruit == "apple" {
   print("🍎")
 } else {
   print("fruit emoji not found")
 }
 ```
-
-
 
 ## Ternary
 
@@ -116,10 +112,8 @@ if fruit == "banana" {
 var fruit: String = "apple"
 
 
-fruit === "apple" ? print("🍎") : print("Ops, it not an apple")
+fruit == "apple" ? print("🍎") : print("Ops, it not an apple")
 ```
-
-
 
 ## Switch
 
@@ -142,7 +136,7 @@ switch fruit{
 
 ```swift
 var num: Int = 2
- 
+
 switch num {
   case 1...10:
     print(num*10) 
